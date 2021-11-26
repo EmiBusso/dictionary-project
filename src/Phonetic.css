@@ -1,8 +1,9 @@
 .Phonetic {
   margin: 20px 0;
+  display: inline-block;
 }
 
-.Phonetic a {
+.Phonetic button.audio {
   border: 1px solid #9b8b93;
   text-decoration: none;
   padding: 8px 15px;
@@ -13,12 +14,21 @@
   transition: all 150ms ease-in-out;
 }
 
-.Phonetic a:hover {
+.Phonetic button.audio:hover {
   background: #e75981;
-  color: #010100;
+}
+
+h4 {
+  opacity: 0.6;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0;
+  display: inline-block;
 }
 
 .Phonetic .text {
   opacity: 0.5;
   font-weight: bold;
 }
+
+
